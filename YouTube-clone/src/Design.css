@@ -1,0 +1,296 @@
+body{
+    background-color: #181818;
+    overflow-x: hidden;
+}
+
+.noResult{
+    color: #fff;
+    font-family:  monospace;
+    font-size: 20px;
+   text-align: center;
+}
+.videoMain{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logoBrand{
+    width: 150px;
+}
+.header{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+@media (max-width:540px) {
+    iframe{
+        width: 300px;
+        height: 250px;
+    }
+}
+@media (max-width:700px) {
+    .headerTop{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+}
+@media (max-width:768px) {
+    .header{
+        max-width: 100%;
+         display: flex;
+        
+    }
+   
+   .videoMain{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+   }
+}
+@media (max-width:727px) {
+    .icons{
+        display: flex;
+        max-width: 100%;
+    }
+    .logoBrand{
+     width: 80px;
+    }
+    input{
+        width: 20% ;
+    }
+}
+@media screen and (max-width:900px) {
+   
+      .videoLists{
+     
+        margin-top: 20px;
+        padding-top: 20px;
+      }
+}
+@media (max-width:588px) {
+    .profileImg{
+        margin-left: 130px;
+    }
+}
+@media (max-width:600px) {
+    .header{
+        max-width: 100%;
+        width: 800px;
+    }
+
+}
+@media (max-width:640px) {
+    .header{
+        max-width: 100%;
+        width: 900px;
+    }
+}
+@media (max-width:750px) {
+    .header{
+      
+        width: 900px    }
+}
+@media (max-width:585px) {
+    .header{
+        max-width: 100%;
+        width: 800px;
+        display: flex;
+    }
+    .input{
+        width: 40%;
+    }
+}
+@media (max-width:470px) {
+    .header{
+        max-width: 100%;
+        width:600px;
+    }
+}
+@media (max-width:768px) {
+    .header{
+        max-width: 100%;
+        width: 800px;
+    }
+}
+.videoLists{
+    padding: 0 40px 40px 0;
+}
+
+.input{
+    max-width: 100%;
+    width: 50%;
+    background-color: #121212;
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+}
+.profile{
+    margin-left: 20px;
+
+}
+.profile > img{
+    width: 40px;
+    border-radius: 50%;
+}
+.functions{
+    cursor: pointer;
+}
+iframe{
+    width: 850px;
+    height: 500px;
+}
+@media (max-width:600px) {
+    iframe{
+        width: 550px;
+        height: 300px;
+    }
+}
+@media (max-width:400px) {
+    iframe{
+        width: 250px;
+        height: 200px;
+        margin-right: 60px;
+    }
+    .videInfo{
+        height: 40px;
+    }
+    .videoMain{
+        display: flex;
+        justify-content: center;
+        margin-right: 150px;
+    }
+ 
+}
+.videoSec{
+  padding: 0 20px;
+}
+.videoLists > div{
+    float: right;
+    width: 80%;
+}
+ .titleVideo{
+    color: #fff;
+    font-family: system-ui;
+}
+.channelTitle{
+    color: #fff;
+}
+.description{
+    color: #fff;
+}
+.descriptionVideo{
+    color: #fff;
+    font-family: system-ui;
+    width: 75%;
+}
+@media (max-width:500px) {
+    .descriptionVideo{
+        width: 30%;
+    }
+    .titleVideo{
+        font-size: 20px;
+    }
+    iframe{
+        width: 450px;
+    }
+    .functions{
+        width: 100px;
+    }
+    input{
+        width: 200px;
+    }
+}
+@media (max-width:300px) {
+    input{
+        width: 200px;
+        height: 10px;
+    }
+    .logoBrand{
+        width: 40px;
+    }
+    .functions{
+        width: 50px;
+    }
+    .videoItems{
+       margin-left: 20px;
+    }
+}
+@media (max-width:450px) {
+    iframe{
+        width: 350px;
+    }
+
+}
+@media (max-width:300px) {
+    iframe{
+        width: 300px;
+    }
+    .header{
+        padding: 50px;
+    }
+    .videInfo{
+        height: 40px;
+    }
+  
+}
+@media (max-width:450px) {
+    .icons{
+       padding-left: 30px;
+       width: 100px;
+    }
+    .functions{
+        width: 90px;
+    }
+}
+.videoItems{
+    display: inline-block;
+    cursor: pointer;
+    padding: 0 0 15px;
+}
+@media screen and (max-width:395px) {
+    iframe{
+        width: 320px;
+        margin-right: 20px;
+    }
+    
+    .videoLists{
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+    .videInfo{
+        width: 300px;
+        
+    }
+    .titleVideo{
+        width: 320px;
+    }
+    .channelTitle{
+        width: 300px;
+    }
+    .description{
+        width: 300px;
+    }
+}
+@media screen  and (max-width:360px){
+     .iframe{
+        width: 200px;
+        margin-left: -20px;
+     }
+     .videoIframe{
+        margin-left: -20px;
+     }
+     .videoInfo{
+        width: 290px;
+        margin-left: -10px;
+     }
+     .videoLists{
+        margin-left: -9px;
+     }
+}
+
